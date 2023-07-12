@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-laptop{
+    width: 500px;
+    height: 700px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px gray;
+    border-radius: 10px;
+
+}
+.laptop-img{
+    height: 250px;
+    width: 250px;
+}
+h3{
+    text-align: center;
+    
+}
+
+.input-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input-card input{
+    border-radius: 10px;
+    border: solid 1px gray;
+    margin: 15px;
+    font-size: 20px;
+}
+.btn_total{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: yellow;
+    font-size: 20px;
+    align-self: center;
+}
+p{
+    font-size: 30px ;
+    text-align: center;
+    margin: 15px;
+}
