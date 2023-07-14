@@ -8,24 +8,35 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="card-laptop">
-        <div class="container">
-            <img class="laptop-img" src="assets/img/laptop.png" alt="">
-            <h3> Laptop Gamer AMD</h3>
-            <div class="input-card">
-                <input type="text" placeholder="Cantidad">
-                <input type="text" placeholder="Color">
+
+    <main>
+        <section class="card-laptop">
+            <div class="container">
+                <img class="laptop-img" src="assets/img/laptop.png" alt="">
+                <h3> Laptop Gamer AMD</h3>
+                <div class="input-card">
+                    <input type="text" id="cantidad" placeholder="Cantidad">
+                    <select class="selectcolor">
+                        <option value="darkblue">darkblue</option>
+                        <option value="azul">azul</option>
+                        <option value="naranja">naranja</option>
+                        <option value="amarillo">amarillo</option>
+                        <option value="verde">verde</option>
+                    </select>
+                </div>
+                <p> Precio: $<span class="valor-laptop">400000</span></p>
+                <button class="btntotal"> Calcular valor total</button>
             </div>
-            <p> Precio: $<span class="valor-laptop">400000</span></p>
-            <button class="btn_total"> Calcular valor total</button>
-        </div>
-    </section>
-    <section class="info-card">
-        <div class="container-info">
-            <p>Total: <span class="total-info">$0</span></p>
-            <p>Cantidad: <span class="cantidad-info">0</span></p>
-            <p>Color: <span class="color-info"></span></p>
-        </div>
-    </section>
+        </section>
+        <section class="info-card">
+            <div class="container-info">
+                <span class="total-info"></span>
+                <span class="cantidad-info"></span>
+                <span class="color-info"></span>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/index.js"></script>
 </body>
 </html>

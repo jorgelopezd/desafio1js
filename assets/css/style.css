@@ -1,6 +1,6 @@
-body{
+main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
 }
 .container{
     display: flex;
@@ -38,7 +38,13 @@ h3{
     margin: 15px;
     font-size: 20px;
 }
-.btn_total{
+.selectcolor{
+    border-radius: 10px;
+    border: solid 1px gray;
+    margin: 15px;
+    font-size: 20px;
+}
+.btntotal{
     display: flex;
     padding: 10px;
     align-items: center;
@@ -65,12 +71,12 @@ p{
 .container-info p{
     margin: 0;
 }
-.color-info{
+.colorinfo{
     width: 50px;
     height: 50px;
     margin: 20px;
     border-radius: 50%;
-    border: 30px solid black;
+    /* border: 30px solid black; */
     border-bottom-width: 0px;
     border-top-width: 0px;
     border-right-width: 0px;
