@@ -61,6 +61,7 @@ p{
     display: flex;
     align-items: center;
     margin: 30px;
+    font-size: 30px;
 }
 .container-info{
     display: flex;
@@ -76,7 +77,6 @@ p{
     height: 50px;
     margin: 20px;
     border-radius: 50%;
-    /* border: 30px solid black; */
     border-bottom-width: 0px;
     border-top-width: 0px;
     border-right-width: 0px;

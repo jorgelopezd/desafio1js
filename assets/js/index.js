@@ -17,6 +17,6 @@ btntotal.addEventListener('click', function() {
 });
 
 function calculartotal(cantidad) {
-    const preciounitario = 400000;
+    const preciounitario = 1000;
     return cantidad * preciounitario;
 }
